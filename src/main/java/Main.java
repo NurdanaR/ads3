@@ -3,11 +3,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Testing MyHashTable:");
         MyHashTable<Integer, String> hashTable = new MyHashTable<>();
-        hashTable.put(1, "Apple");
-        hashTable.put(2, "Banana");
-        hashTable.put(3, "Cherry");
+        hashTable.put(1, "dog");
+        hashTable.put(2, "cat");
+        hashTable.put(3, "grapefruit");
         System.out.println("Value for key 1: " + hashTable.get(1));
-        System.out.println("Contains value 'Banana': " + hashTable.contains("Banana"));
+        System.out.println("Contains value 'cherry': " + hashTable.contains("cherry"));
 
         System.out.println("\nTesting BST:");
         BST<Integer, String> bst = new BST<>();
